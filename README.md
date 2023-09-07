@@ -8,3 +8,13 @@ For now I want not to sample the distributions descirbed in the [Smooth Backbone
 
 In this stage, the python package is just a prototype, highly unoptimized. 
 I will create an optimized version in C++/CUDA so that it can be used to create large datasets on clusters in a short amount of time.
+
+
+# Requirements
+The only requirements are
+- rdkit
+- numpy
+- scipy
+- loguru
+
+Start by installing rdkit in a conda/mamba environment, and everything else should be straightforward.
