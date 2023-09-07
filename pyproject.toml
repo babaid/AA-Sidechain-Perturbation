@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "rdkit", "numpy", "loguru]
+build-backend = "setuptools.build_meta"
+[project]
+name = "aaperturb"
+version = "0.0.1"
+authors = [
+  { name="Dezsö Babai", email="ask" },
+]
+description = "A package to perturb amino acid sidechains in pdb files."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNUv3 License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/babaid/AA-Sidechain-Perturbation"
+"Bug Tracker" = "https://github.com/babaid/AA-Sidechain-Perturbation/issues"
