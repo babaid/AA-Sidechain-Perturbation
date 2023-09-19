@@ -1,3 +1,6 @@
+# Info
+For the actual production-ready implementation, visit [AAPerturb](https://github.com/babaid/AAPerturb). It is an optimized version so you can create a large dataset.
+
 # AA-Sidechain-Perturbation
 This is a proof of concept python project, where the aim is to perturb sidechains of amino acids by rotating them around predefined axes. This can be of use for GNNs.
 
